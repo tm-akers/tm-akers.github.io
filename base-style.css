@@ -1,34 +1,15 @@
 body {
-    background-color: black;
+    background-color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
-}
-.header {
-    border-radius: 10px;
-    background-color: white;
+    
 }
 .box {
     border-radius: 10px;
-    background-color: white;
+    background: #575757;
+    box-shadow:  20px 20px 60px #4a4a4a,
+                 -20px -20px 60px #646464;
     padding-left: 10px;
     padding-bottom: 0.1px;
     margin-left: 140px;
 }
 
-.sidebar {
-    width: 130px;
-    position: fixed;
-    z-index: 1;
-    top: 20px;
-    left: 10px;
-    background: white;
-    overflow-x: hidden;
-    padding: 8px 0;
-}
-  
-.sidebar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #2196F3;
-    display: block;
-}
