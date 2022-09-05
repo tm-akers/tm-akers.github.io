@@ -1,0 +1,13 @@
+body {
+
+}
+.header {
+    border-radius: 10px;
+    background-color: white;
+}
+.box {
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 10px;
+    padding-bottom: 0.1px;
+}
