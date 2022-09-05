@@ -1,5 +1,6 @@
 body {
-
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 .header {
     border-radius: 10px;
@@ -10,4 +11,24 @@ body {
     background-color: white;
     padding-left: 10px;
     padding-bottom: 0.1px;
+    margin-left: 140px;
+}
+
+.sidebar {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: white;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+  
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
 }
