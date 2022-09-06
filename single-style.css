@@ -1,17 +1,33 @@
 body {
-    background-color: white;
+    background: white;
     font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.dark-mode {
+    background: black;
+    color: white;
 }
 
 .header {
     position: sticky;
 }
-.card-welcome {
-    background: #fff;
+
+.card-base {
     border: 3px solid #000;
     border-radius: 0;
     box-shadow: 15px 15px 0 -2.5px #000, 15px 15px 0 0 #000;
     margin: auto;
+}
+
+.card-base-dark {
+    border: 3px solid white;
+    border-radius: 0;
+    box-shadow: 15px 15px 0 -2.5px white, 15px 15px 0 0 white;
+    margin: auto;
+}
+
+.card-welcome {
     position: static;
     margin-top: 50px;
     font-size: 5vw;
@@ -19,23 +35,13 @@ body {
     max-width: 80vw;
 }
 
-.card-text-l {
-    background: #fff;
-    border: 3px solid #000;
-    border-radius: 0;
-    box-shadow: 15px 15px 0 -2.5px #000, 15px 15px 0 0 #000;
+.card-text-alt1 {
     max-width: 50vw;
     padding-left: 5px;
-    margin: auto;
     margin-top: 80px;
 }
 
-.card-text-r {
-    background: #fff;
-    border: 3px solid #000;
-    border-radius: 0;
-    box-shadow: 15px 15px 0 -2.5px #000, 15px 15px 0 0 #000;
-    margin: auto;
+.card-text-alt2 {
     margin-top: 80px;
     max-width: 50vw;
     text-align: center;
