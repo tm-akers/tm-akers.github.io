@@ -2,14 +2,15 @@
 <html>
     <head>
         <link rel="stylesheet" href="single-style.css">
+        <title>Thomas Akers Portfolio</title>
+        <script src="java.index.js"></script>
     </head>
     <body>
-        <script src="java-index.js"></script>
-        <div class="header">
+        <div class="header fade-in">
             <h1>Thomas Akers</h1>
         </div>
-        <div>
-            <!--<button onclick="darkMODE(); darkMODEcard()">Dark Mode</button>-->
+        <div class="fade-in" style="text-align:center">
+            <button id="btn" onclick="darkMODE()">Press Me</button>
         </div>
         <div class="card-base card-welcome fade-in" id="welcome">
             <h1>Welcome</h1>
@@ -20,7 +21,7 @@
         </div>
         <div class="card-base card-text-alt2 fade-in" id="social">
             <h2>Find Me On</h2>
-            <a href="https://www.linkedin.com/in/thomas-akers/">LinkedIn</a>
+            <a id="hyper" href="https://www.linkedin.com/in/thomas-akers/">LinkedIn</a>
         </div>
     </body>
 </html>
