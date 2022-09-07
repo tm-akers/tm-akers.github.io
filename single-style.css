@@ -1,29 +1,36 @@
 body {
-    background: white;
+    background: #fff;
     font-family: 'Courier New', Courier, monospace;
-    color: black;
+    color: #000;
+    border-color: #000;
 }
 
-.dark-mode {
-    background: black;
-    color: white;
+a {
+    color: inherit;
+}
+
+.dark {
+    background: #000;
+    color: #fff;
+    border-color: #fff;
 }
 
 .header {
     position: sticky;
+    text-align: center;
 }
 
 .card-base {
-    border: 3px solid #000;
+    border: 3px solid;
     border-radius: 0;
     box-shadow: 15px 15px 0 -2.5px #000, 15px 15px 0 0 #000;
     margin: auto;
 }
 
 .card-base-dark {
-    border: 3px solid white;
+    border: 3px solid;
     border-radius: 0;
-    box-shadow: 15px 15px 0 -2.5px white, 15px 15px 0 0 white;
+    box-shadow: 15px 15px 0 -2.5px #fff, 15px 15px 0 0 #fff;
     margin: auto;
 }
 
@@ -49,10 +56,29 @@ body {
 }
 
 .fade-in {
-    animation: fadeIn 2s;
+    transition:  background 0.6s ease, color 1s ease;
+    transition: border 0.6s ease, color 1s ease;
 }
 
-@keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+button {
+    background: inherit;
+    color: inherit;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid;
+    border-radius: 0;
+    box-shadow: 0.1em 0.1em;
+
+}
+
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+   
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
 }
