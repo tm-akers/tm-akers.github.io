@@ -5,6 +5,4 @@ function darkMODE(){
     myDIV1.classList.toggle("card-base-dark");
     let myDIV2 = document.getElementById("introduction");
     myDIV2.classList.toggle("card-base-dark");
-    let myDIV3 = document.getElementById("social");
-    myDIV3.classList.toggle("card-base-dark");
 }
