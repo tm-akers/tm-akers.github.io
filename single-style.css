@@ -25,6 +25,7 @@ a {
     border-radius: 0;
     box-shadow: 15px 15px 0 -2.5px #000, 15px 15px 0 0 #000;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .card-base-dark {
@@ -32,6 +33,7 @@ a {
     border-radius: 0;
     box-shadow: 15px 15px 0 -2.5px #fff, 15px 15px 0 0 #fff;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .card-welcome {
@@ -46,13 +48,6 @@ a {
     max-width: 50vw;
     padding-left: 5px;
     margin-top: 80px;
-}
-
-.card-text-alt2 {
-    margin-top: 80px;
-    max-width: 50vw;
-    text-align: center;
-    padding-bottom: 5px;
 }
 
 .fade-in {
